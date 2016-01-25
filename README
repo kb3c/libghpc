@@ -1,0 +1,31 @@
+=libghpc
+2016jan25:gsh
+
+*DO NOT PUSH TO BRANCH MASTER.*
+The master branch is only for 'verified' stable versioning. To submit a change or update, push to a new branch and updates will appear pending a merge.
+
+==Synopsis
+
+Playing Cards Library.
+
+libghpc supports interfaces to C.
+
+
+==tst/
+
+try
+	`tst/ $ ./qu_build.sh`
+	`tst/ $ ./qu_build.sh f`
+	
+==Erratae
+
+Each version is `.gz`d.
+Try
+	`$ make prepare`
+
+Then you will want to link to a target to use tst/ as per displayed info.
+
+
+==See: ISSUES 
+
+to offer opinions as to how these releases (platform/arch) should be organized.
